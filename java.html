@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn"> click me </button>
+ <div style="width: 300px; height: 200px; background: green;" id="box"></div>
+ <input type="text" id="inp">
+ <label id="error" style="display: none;">enter min 4 characters</label>
+ <input type="text" id="">
+ <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+ <script>
+     $(document).ready(function(){
+         $("#btn").click(function(){
+            // alert("button clicked")
+            $("#box").fadeToggle(3000)
+         })
+         $("#btn").mouseenter(function(){
+             $(this).css({"background":"red"})
+         })
+         $("#inp").blur(function(){
+             var text=$(this).val()
+             if(text.length<4){
+               // alert("enter min 4 characters")
+               $("#error").show()
+             }else{
+                 $("#error").hide()
+                 
+             }
+         })
+     })
+ </script>
+</body>
+</html>

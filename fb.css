@@ -1,0 +1,141 @@
+.header{
+    background-color: #29487d;
+    width: 100%;
+    height: 83px;
+}
+body{
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+.logo{
+    width:  50%;
+    padding-top: 24px;
+    float: left;
+}
+.login{
+    width: 50%;
+    float: left;
+    padding-top: 10px;
+}
+.logotxt{
+    color: aliceblue;
+    font-size: 39px;
+    font-weight: bold;
+   text-decoration: none;
+   font-family: Helvetica, Arial, sans-serif;
+   margin-left: 264px;
+}
+.a1{
+color: aliceblue;
+font-size: 11px;
+}
+.control{
+    margin-left: 77px;
+}
+.a2{
+    color: #9cb4d8;
+    font-size: 10px;
+    text-decoration: none;
+}
+.sub{
+    background-color: #29487d;
+    border-color: #29487d;
+    color: aliceblue;
+    cursor: pointer;
+}
+.sub:hover{
+  background: #606770;;
+}
+.left{
+    width: 50%;
+    float: left;
+    padding-left: 66px;
+    padding-top: 45px;
+}
+.right{
+    width: 45%;
+    float: left;
+   
+    color: black;
+}
+.mainbody{
+    background: linear-gradient(white, #D3D8E8);
+    width: 100%;
+    height: 600px;
+}
+.image{
+    width: 581px;
+}
+.para{
+    font-weight: bold;
+    font-size: 15px;
+}
+.b1{
+    color: black;
+    
+    font-size: 37px;
+}
+.b{
+    margin-top: 29px;
+}
+.para2{
+color: black;
+margin-top: 7px;
+font-weight: lighter;
+font-size: 19px;
+}
+.form1{
+    height: 26px;
+    width: 222px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.form2{
+    height: 26px;
+    width: 455px;
+    border-radius: 5px;
+    font-size: 17px;
+  margin-top: 17px;
+    
+}
+.form3{
+    height: 26px;
+    width: 455px;
+    border-radius: 5px;
+    font-size: 17px;
+
+    margin-top: 17px;
+}
+
+
+.c{
+    margin-top: 1px;
+}
+.birth{
+    height: 26px;
+    width: 75px;
+    border-radius: 1px;
+    font-size: 14px;
+}
+.f{
+    color: black;
+    font-weight: lighter;
+}
+.para3{
+    font-size: 10px;
+    color: #90949c;
+    font-weight: lighter;
+}
+.sub1{
+    background: linear-gradient(#79bc64, #578843);
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    color: #fff;
+    width: 119px;
+    height: 33px;
+    border-radius: 10px;
+}
+.para4{
+    font-size: 17px;
+    color: #90949c;
+}
